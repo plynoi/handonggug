@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="handonggugApp">
+	<head>
+		<title>Who create this?</title>
+		<script src="./lib/angular.min.js"></script>
+		<script src="./app/controller.js"></script>
+	</head>
+	<body ng-controller="handonggugCtrl">
+		
+		ใครสร้าง&nbsp;<input type="text" id="txtInput" ng-model="things"/>&nbsp;&nbsp;<button  id="btnInput" value="click" ng-click="processThings()">Click</button><br><br>
+		<div>
+			<span id="spnDisplay">{{msg}}</span>
+		</div>
+	</body>
+</html>
